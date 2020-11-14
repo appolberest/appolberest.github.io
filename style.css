@@ -1,0 +1,154 @@
+.brand_color{
+	color:white;
+}
+.navbar-dark .navbar-brand {
+    color:white;
+}
+.navbar-dark .navbar-brand:hover {
+    color:plum;
+    transition:1s;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:thistle;
+    transition:0.8s;
+}
+.navbar-dark .navbar-nav .nav-link:active{
+    color:thistle;
+    transition:0.8s;
+}
+.header{
+	background-image:url("https://wsfilexpert.ru/wp-content/uploads/2016/06/3d-grafika.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	margin-top: 3rem;
+	height:39rem;
+}
+.navbar-brand{
+	margin-left: 6rem;
+}
+.collapse{
+	margin-left: 5rem;
+}
+.overlay{
+	background:rgba(216, 191, 216, 0.3);
+	min-width:100%;
+	min-height:39rem;
+	max-height:39rem;
+	position:absolute; 
+}
+h1, h2{
+	color:plum;
+	text-shadow:-2px 2px 2px black;
+}
+h2.logo_description{
+	padding-bottom: 20px;
+	
+}
+span.text-muted{
+	display: inline-block;
+}
+.description{
+	position:absolute;
+	top:40%;
+	color:white;
+	font-weight:400;
+}
+p.p_description{
+	text-shadow:-2px 2px 2px black;
+}
+
+.button_header{
+	border-width: 2px;
+	font-weight:600;
+	
+}
+.about{
+	background-color: #343a40!important;
+	color: white;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.img-logo{
+	max-width:40%;
+	min-width:40%;
+}
+.about_us{
+	padding-top: 3rem;
+	padding-left: 2rem;
+}
+.gallery{
+	background-color:lightgray;
+	color:black;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	position: relative;
+}
+.h2_reverse{
+	color:#343a40!important;
+	text-shadow:-2px 2px 2px white;
+	padding-bottom: 20px;
+}
+.img_example{
+	max-width:95%;
+	min-width:95%;
+	padding-bottom: 20px;
+}
+.blog{
+	background-color: #343a40!important;
+	color:darkgray;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.team{
+	background-color:lightgray;
+	color:black;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	position: relative;
+}
+
+.team_img_description{
+	background-color: #343a40!important;
+	color:white;
+	border: 6px solid #343a40!important;
+	font-weight:600;
+	border-radius: 7px;
+
+}
+.manager:hover .team_img_description{
+	background-color: #343a40!important;
+	opacity:10%;
+	width:90%;
+	height:100%;
+	position: absolute;
+	top:0;
+	transition: .5s ease-in-out;
+}
+.manager:hover .hide{
+	visibility: hidden;
+}
+.contact{
+	background-color: #343a40!important;
+	color:darkgray;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.button_contacts{
+	border-width: 2px;
+	font-weight:600;
+	
+}
+.col-12, .col-sm-12{
+	margin-bottom: 1rem;
+}
