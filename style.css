@@ -26,9 +26,10 @@
 }
 .navbar-brand{
 	margin-left: 6rem;
+	margin-right: 5rem;
 }
 .collapse{
-	margin-left: 5rem;
+	margin-left: ;
 }
 .overlay{
 	background:rgba(216, 191, 216, 0.3);
