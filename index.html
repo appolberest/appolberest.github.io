@@ -22,16 +22,16 @@
                     <a class="nav-link" href="#about_us" data-value="about_us"><b>About us</b><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#models" data-value="models"><b>Models</b></a>
+                    <a class="nav-link" href="#" data-value="models"><b>Models</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#blog" data-value="blog"><b>Blog</b></a>
+                    <a class="nav-link" href="#" data-value="blog"><b>Blog</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#managers" data-value="managers"><b>Managers</b></a>
+                    <a class="nav-link" href="#" data-value="managers"><b>Managers</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact" data-value="contact"><b>Contact</b></a>
+                    <a class="nav-link" href="#" data-value="contact"><b>Contact</b></a>
                 </li>
             </ul>
             
@@ -248,6 +248,15 @@
     
     <!-- Подключаем Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" ></script>
+
+     <script type="text/javascript">
+			$(".navbar a").click(function(){
+		  $("body,html").animate({
+		   scrollTop:$("#" + $(this).data('value')).offset().top
+		  },1000)
+		  
+ })      
+    </script>
 
 </body>
 </html>
